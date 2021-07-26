@@ -1,0 +1,21 @@
+{
+	"name": "aFUZHOU/php-excel",
+	"description": "php excel 导入导出",
+	"keywords": ["excel", "csv", "xlsx", "xls", "html", "aFUZHOU"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "aFUZHOU"
+		}
+	],
+	"type": "extension",
+	"require": {
+		"php": ">=7.4",
+		"phpoffice/phpspreadsheet": "^1.18"
+	},
+	"autoload": {
+		"psr-4": {
+			"aFUZHOU\\excel\\": "./src"
+		}
+	}
+}
