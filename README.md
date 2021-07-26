@@ -1,5 +1,17 @@
 # php-excel
 
+## 安装
+
+```
+composer require afuzhou/php-excel
+```
+
+引入
+
+```
+use afuzhou\excel\Excel;
+```
+
 #### Demo
 
 ```
