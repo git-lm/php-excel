@@ -289,6 +289,8 @@ class Excel
                 throw new Exception('不能读取的excel');
             }
         }
+        // 当导入格式为csv时 汉字不显示
+        $reader->setInputEncoding('GBK');
         $spreadsheet = $reader->load($filePath);
         $sheetCount = $spreadsheet->getSheetCount();// 获取sheet(工作表)的数量
 
