@@ -1,11 +1,11 @@
 {
-	"name": "aFUZHOU/php-excel",
+	"name": "afuzhou/php-excel",
 	"description": "php excel 导入导出",
-	"keywords": ["excel", "csv", "xlsx", "xls", "html", "aFUZHOU"],
+	"keywords": ["excel", "csv", "xlsx", "xls", "html", "afuzhou"],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "aFUZHOU"
+			"name": "afuzhou"
 		}
 	],
 	"type": "extension",
